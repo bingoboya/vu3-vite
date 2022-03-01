@@ -6,6 +6,7 @@ import HelloWorld from 'components/HelloWorld.vue'
 import MainContent from 'components/MainContent.vue'
 import Clock from 'components/Clock.vue'
 import logo from './assets/logo.png'
+import gongan from './assets/gongan.png'
 import Background from './assets/bg.jpg'
 const fatherClick = (val) => {
   console.log('fatherClick', val);
@@ -51,8 +52,8 @@ const caseNumber = '京ICP备2022003262号'
       <!-- <span v-html="footerTxt" /> -->
       <!-- <span> ⋅ </span> -->
       <a href="http://www.beian.gov.cn/portal/registerSystemInfo" target="_blank">
-        <img data-src="//img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" style="width: 20px;
-    height: 20px;margin-right: 12px;" src="//img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png">
+        <img :data-src="gongan" style="width: 20px;
+    height: 20px;margin-right: 12px;" :src="gongan">
         <span class="ali-report-link-text" style="margin-right: 12px">京公网安备 11010602104093号</span>
       </a>
       <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" style="cursor: pointer;
