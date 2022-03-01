@@ -31,12 +31,12 @@ const urlitem = ref(
   "https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"
 );
 const fitList = ref([
-  { title: "合同管理系统", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
-  { title: "wly2a", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
-  { title: "wly3", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
-  { title: "wly4", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
-  { title: "wly5", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
-  { title: "wly6", imgUrl: urlitem.value, url: 'http://222.128.19.51:38081/' },
+  // { title: "合同管理系统", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
+  // { title: "wly2a", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
+  // { title: "wly3", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
+  // { title: "wly4", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
+  // { title: "wly5", imgUrl: Wlylogo, url: 'http://222.128.19.51:38081/' },
+  // { title: "wly6", imgUrl: urlitem.value, url: 'http://222.128.19.51:38081/' },
 ]);
 const clickItem = (url) => {
   console.log("clickItem", url);
